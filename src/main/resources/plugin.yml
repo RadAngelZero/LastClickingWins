@@ -1,0 +1,16 @@
+name: LastClickingWins
+version: '${project.version}'
+main: com.radangelzero.lastclickingwins.LastClickingWins
+api-version: 1.18
+authors: [ RadAngelZero ]
+description: A mini game plugin like last with the hand in the car wins it
+website: https://radangelzero.com
+commands:
+  lastclickingwins:
+    description: Base command for the plugin
+    usage: /lastclickingwins <sub-command> [args]
+    aliases:
+      - lcw
+permissions:
+  lcw.admin:
+    description: Permite la administracion del plugin
